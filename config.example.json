@@ -1,0 +1,11 @@
+{
+  "imap_host": "imap.example.com",
+  "imap_port": 993,
+  "username": "you@example.com",
+  "password": "app_password_or_token",
+  "mailbox": "INBOX",
+  "criteria": "OR UNSEEN UNANSWERED",
+  "max_items": 50,
+  "report_path": "reports/daily-email-triage.md",
+  "move_to_folder": "Triage"
+}
